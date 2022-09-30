@@ -1,0 +1,8 @@
+.bar{
+    display: flex; 
+    gap: 1rem; 
+}
+
+.bar svg{
+    cursor: pointer; 
+}

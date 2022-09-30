@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+:root{
+    --f-primary: 'Public Sans', sans-serif;
+    --c-darkblue: hsl(233, 26%, 24%); 
+    --c-green: hsl(136, 65%, 51%); 
+    --c-blue: hsl(192, 70%, 51%); 
+    --c-gray: hsl(233, 8%, 62%); 
+    --c-grayblue: hsl(220, 16%, 96%); 
+    --c-offwhite: hsl(0, 0%, 98%); 
+    --c-white: hsl(0, 0%, 100%); 
+    --p-mobile: 1.5rem; 
+    --p-desktop: 8rem; 
+    --radius: 5px; 
+    --h2-mobile:  2rem; 
+    --h2-desktop: 2.4rem; 
+}

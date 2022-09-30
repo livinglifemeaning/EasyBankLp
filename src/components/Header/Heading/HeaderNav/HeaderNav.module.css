@@ -1,0 +1,65 @@
+.navBox.mobile{
+    position: absolute; 
+    bottom: -535px; 
+    left: 0; 
+    z-index: 5; 
+    background: linear-gradient(hsla(233, 26%, 24%, 0.8) 60%,  hsla(248, 17%, 83%, 0.1)); 
+    width: 100vw; 
+    height: 80vh; 
+}
+
+.nav{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    font-size: 1.1rem; 
+}
+
+.nav li{
+    cursor: pointer; 
+ 
+}
+
+.navBox.mobile .nav{
+    background-color: var(--c-white); 
+    width: 20rem; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem; 
+    gap: 1rem; 
+    border-radius: var(--radius); 
+    margin: 1.5rem auto 0; 
+}
+
+.navBox.mobile .nav li{
+    color: var(--c-darkblue); 
+}
+.navBox.mobile .nav li:hover{
+    font-weight: 600; 
+}
+
+.navBox.desktop .nav{
+    color: var(--c-gray); 
+    gap: 1.5rem; 
+}
+
+.navBox.desktop .nav li{
+    position: relative; 
+}
+
+.navBox.desktop .nav li:hover{
+    color: var(--c-darkblue)
+}
+
+.navBox.desktop .nav li:hover::before{
+    content: ""; 
+    position: absolute; 
+    background: linear-gradient(90deg, var(--c-green), var(--c-blue)); 
+    width: 55px; 
+    height: 3px; 
+    bottom: -30px; 
+    left: 50%; 
+    translate: -50% 0; 
+}

@@ -1,0 +1,16 @@
+.btn{
+    background: linear-gradient(90deg, var(--c-green), var(--c-blue)); 
+    padding: .8rem 3rem; 
+    color: var(--c-white); 
+    border-radius: 50px; 
+    text-align: center; 
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg, hsl(136, 65%, 65%), hsl(192, 70%, 65%)); 
+}
+
+.btn:active{
+    scale: .98; 
+}

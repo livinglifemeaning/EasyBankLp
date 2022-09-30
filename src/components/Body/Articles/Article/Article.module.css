@@ -1,0 +1,31 @@
+.article{
+    background-color: var(--c-white); 
+    border-radius: var(--radius); 
+    overflow: hidden;
+}
+
+.textBox{
+    padding: 2rem 1rem; 
+}
+
+.author{
+    color: var(--c-gray); 
+    font-size: .8rem; 
+}
+
+.title{
+    font-weight: 400; 
+    color: var(--c-darkblue); 
+    line-height: 1.2em; 
+    margin: .5rem 0; 
+    cursor: pointer; 
+}
+
+.title:hover{
+    color: var(--c-green);
+}
+
+.paragraph{
+    color: var(--c-gray); 
+    font-size: .9rem; 
+}

@@ -1,0 +1,25 @@
+.feature{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.title{
+    font-weight: 400; 
+    font-size: 1.4rem; 
+    color: var(--c-darkblue); 
+    margin: 1.5rem 0 .5rem; 
+}
+
+.paragraph{
+    color: var(--c-gray)
+}
+
+@media (min-width: 750px) {
+    .feature{
+        align-items: flex-start;
+        text-align: left; 
+        max-width: 20rem; 
+    }
+}
